@@ -1,17 +1,5 @@
 package klass;
 
-class Carro {
-    int ano = 0;
-    String modelo = "";
-}
-
-class Pessoa{
-    int idade = 0;
-    String nome = "";
-
-}
-
-
 public class aula_1_class {
     public static void main(String[] args) {
 
