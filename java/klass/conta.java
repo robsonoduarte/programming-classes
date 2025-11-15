@@ -19,7 +19,7 @@ public class conta {
 
 
         } else {
-            if (limite>0) {
+            if (saque<=limite) {
                 saldo = saldo - saque;
                 limite = limite - saque;
             }
