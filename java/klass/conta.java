@@ -12,16 +12,19 @@ public class conta {
     void sacar(double saque) {
         if (saldo >= 0) {
             saldo = saldo - saque;
-
-        }/* else {
-            if (limite >= saque) {
-                limite = limite - saque;
+            if (saldo < 0) {
+                limite = limite + saldo;
 
             }
-        }*/
-        if (saldo < saque) {
-            limite = limite + saldo;
+
+
+        } else {
+            if (limite>0) {
+                saldo = saldo - saque;
+                limite = limite - saque;
+            }
         }
+
 
     }
 
