@@ -11,6 +11,8 @@ public class aula_3_class_method_ex_4 {
         c1.sacar(5.0);
         c1.sacar(1.0);
         c1.sacar(1.0);
+        c1.depositar(1.0);
+        c1.depositar(1.0);
         //c1.sacar(1.0);
         //c1.sacar(7.0);
         System.out.println(c1.saldo);
