@@ -6,6 +6,9 @@ public class conta {
 
     void depositar(double deposito) {
         saldo = saldo + deposito;
+        if (limite < 10){
+            limite = limite + deposito;
+        }
 
 
     }
