@@ -47,9 +47,4 @@ public class aula_1_collections {
         System.out.println(map.get(2).nome);
     }
 
-
-    static class Pessoa{
-        String nome;
-    }
-
 }
