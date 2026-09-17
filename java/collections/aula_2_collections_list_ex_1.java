@@ -26,6 +26,17 @@ public class aula_2_collections_list_ex_1{
         System.out.println(lista.get(0).nome);
         System.out.println(lista.get(1).nome);
         System.out.println(lista.get(2).nome);
+        
+        // lista sem tipagem antes do java 5
+        // | String | int | Pessoa
+        List list = new ArrayList();
+        list.add("banana"); // String
+        list.add(1); // int
+        list.add(p1); // pessoa
+
+        Pessoa p4 = (Pessoa) list.get(2);
+        System.out.println(p4.nome);
+
     }
 
 }
