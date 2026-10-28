@@ -36,8 +36,8 @@ public class aula_3_collections_list_loop {
         g.add(5);
 
         // 1. For Tradicional (com contador)
-        for(i = 0; i < g.size(); i++){
-            System.out.println(g.get(i));
+        for(int x = 0; x < g.size(); x++){
+            System.out.println(g.get(x));
         }
     }
 
