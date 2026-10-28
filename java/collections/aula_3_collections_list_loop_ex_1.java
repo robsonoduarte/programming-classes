@@ -16,21 +16,21 @@ public class aula_3_collections_list_loop_ex_1 {
         // 2. For-Each (Enhanced For Loop)
 
 
-        List<Integer> h = new ArrayList<>();
-        h.add(1);
-        h.add(2);
-        h.add(3);
-        h.add(4);
-        h.add(5);
-        h.add(6);
-        h.add(7);
-        h.add(8);
-        h.add(9);
-        h.add(10);
+        List<Integer> list = new ArrayList<>();
+        list.add(1);
+        list.add(2);
+        list.add(3);
+        list.add(4);
+        list.add(5);
+        list.add(6);
+        list.add(7);
+        list.add(8);
+        list.add(9);
+        list.add(10);
 
         //contador | bool      |soma    // int i = 0; - > declarar o contador
-        for (int i = 0; i < h.size(); i++) {   // while( i < h.size()) { -> expressão bool
-            System.out.println(h.get(i));      // i++; -> somar o contador
+        for (int i = 0; i < list.size(); i++) {   // while( i < h.size()) { -> expressão bool
+            System.out.println(list.get(i));      // i++; -> somar o contador
         }
 
         // for (Tipo variável : arrayOuColecao) {
@@ -38,15 +38,11 @@ public class aula_3_collections_list_loop_ex_1 {
         //
 
         //foreach
-        for (int elemento : h) {
-           if(elemento > 5){
-
-                System.out.println(elemento);
-
+        for (int element : list) {
+           if(element > 5){
+                System.out.println(element);
             }
-
         }
-
 
     }
 }
