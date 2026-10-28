@@ -23,13 +23,28 @@ public class aula_3_collections_list_loop_ex_1 {
         h.add(3);
         h.add(4);
         h.add(5);
+        h.add(6);
+        h.add(7);
+        h.add(8);
+        h.add(9);
+        h.add(10);
 
-
-        for (int i = 0; i < h.size(); i++) {
-            System.out.println(h.get(i));
-
-
+             //contador | bool      |soma    // int i = 0; - > declarar o contador
+        for (int i = 0; i < h.size(); i++) {   // while( i < h.size()) { -> expressão bool
+            System.out.println(h.get(i));      // i++; -> somar o contador
         }
+
+        // for (Tipo variável : arrayOuColecao) {
+        //    // código a ser executado para cada elemento
+        //
+
+        // for each
+/*        for(int e : h) {
+            System.out.println(e);
+        }*/
+
+        //
+
 
     }
 }
