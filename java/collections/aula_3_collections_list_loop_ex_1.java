@@ -16,7 +16,6 @@ public class aula_3_collections_list_loop_ex_1 {
         // 2. For-Each (Enhanced For Loop)
 
 
-
         List<Integer> h = new ArrayList<>();
         h.add(1);
         h.add(2);
@@ -29,7 +28,7 @@ public class aula_3_collections_list_loop_ex_1 {
         h.add(9);
         h.add(10);
 
-             //contador | bool      |soma    // int i = 0; - > declarar o contador
+        //contador | bool      |soma    // int i = 0; - > declarar o contador
         for (int i = 0; i < h.size(); i++) {   // while( i < h.size()) { -> expressão bool
             System.out.println(h.get(i));      // i++; -> somar o contador
         }
@@ -38,12 +37,15 @@ public class aula_3_collections_list_loop_ex_1 {
         //    // código a ser executado para cada elemento
         //
 
-        // for each
-/*        for(int e : h) {
-            System.out.println(e);
-        }*/
+        //foreach
+        for (int elemento : h) {
+           if(elemento > 5){
 
-        //
+                System.out.println(elemento);
+
+            }
+
+        }
 
 
     }
